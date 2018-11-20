@@ -1,0 +1,48 @@
+<!--
+  Generated template for the AgregarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Agregar Contacto</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding  style="background-color: #7A9E9F">
+  
+    <ion-list>
+
+        <ion-item>
+          <ion-input [(ngModel)]="nombreN" placeholder="Nombre"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="telefonoN" placeholder="Teléfono"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="correoN" placeholder="Correo electrónico"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-input [(ngModel)]="facebookN" placeholder="Facebook"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="twitterN" placeholder="Twitter"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input [(ngModel)]="instagramN" placeholder="Instagram"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+
+      <button ion-button (click)="clickContactoN()">Agregar</button>
+
+</ion-content>
